@@ -1,0 +1,15 @@
+.idea
+.mypy_cache
+.pytest_cache
+__pycache__
+*.egg-info
+*.gz
+.ipynb_checkpoints*
+*~
+*.org
+*.pem
+*.pkl
+*.pyc
+.DS_Store
+
+venv*
