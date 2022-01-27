@@ -1,0 +1,4 @@
+tensorflow-deps=2.7.0=0
+pandas=1.4.0=py39h7f752ed_0
+jupyter=1.0.0=py39h2804cbe_7
+matplotlib=3.5.1=py39hdf13c20_0

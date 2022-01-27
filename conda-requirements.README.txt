@@ -1,0 +1,29 @@
+### Instructions for macbook pro M1
+# miniforge can be installed by pyenv and conda is part of miniforge
+
+pyenv install miniforge3-4.10.3-10
+
+# make sure ~/.condarc looks like this:
+
+channels:
+  - conda-forge
+  - apple
+auto_activate_base: false
+
+
+# Create conda environment:
+
+conda create --name mlp --file conda-requirements.txt
+
+# Activate it
+
+conda activate mlp
+
+# Inside it add pip dependencies
+#     pip dependencies should be always added after conda dependencies:
+#     https://www.anaconda.com/blog/using-pip-in-a-conda-environment
+
+pip install -r conda-requirements-pip.txt
+
+### Instructions for intel based iMac
+# Just use the standard pip and requirements.txt file
